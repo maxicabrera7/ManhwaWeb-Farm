@@ -7,8 +7,8 @@
 // @match        *://*.manhwaweb.com/*
 // @grant        none
 // @run-at       document-start
-// @updateURL    https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/refs/heads/main/ManhwaWeb-Farm.user.js
-// @downloadURL  https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/refs/heads/main/ManhwaWeb-Farm.user.js
+// @updateURL    https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/main/ManhwaWeb-Farm.user.js
+// @downloadURL  https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/main/ManhwaWeb-Farm.user.js
 // ==/UserScript==
 
 (function() {
