@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ManhwaWeb - PC Ghost Farm
 // @namespace    Violentmonkey Scripts
-// @version      2.7
+// @version      2.8
 // @description  Spoofing de visibilidad para farmeo en segundo plano.
 // @author       maxicabrera7
 // @match        *://*.manhwaweb.com/*
