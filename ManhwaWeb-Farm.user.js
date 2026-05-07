@@ -1,14 +1,14 @@
 // ==UserScript==
-// @name         ManhwaWeb - PC Ghost Farm v6.5
-// @namespace    http://tampermonkey.net/
-// @version      6.5.1
+// @name         ManhwaWeb - PC Ghost Farm
+// @namespace    Violentmonkey Scripts
+// @version      2.5
 // @description  Spoofing de visibilidad para farmeo en segundo plano.
-// @author       Auditor Técnico Cínico
+// @author       maxicabrera7
 // @match        *://*.manhwaweb.com/*
 // @grant        none
 // @run-at       document-start
-// @updateURL    https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/main/script.user.js
-// @downloadURL  https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/main/script.user.js
+// @updateURL    https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/refs/heads/main/ManhwaWeb-Farm.js
+// @downloadURL  https://raw.githubusercontent.com/maxicabrera7/ManhwaWeb-Farm/refs/heads/main/ManhwaWeb-Farm.js
 // ==/UserScript==
 
 (function() {
