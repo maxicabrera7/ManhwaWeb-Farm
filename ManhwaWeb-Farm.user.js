@@ -14,7 +14,6 @@
 (function() {
     'use strict';
 
-    // Spoofing de visibilidad
     Object.defineProperties(document, {
         'visibilityState': { get: () => 'visible' },
         'hidden': { get: () => false }
@@ -26,7 +25,6 @@
     const TARGET_SECONDS = 65; 
     let elapsed = 0;
 
-    // UI: Crear una sola vez, no en cada ciclo del loop
     const ui = document.createElement('div');
     ui.id = 'pc-farm-ui';
     ui.style = 'position:fixed;top:0;right:0;z-index:999999;background:rgba(0,0,0,0.8);color:#0f0;font-family:monospace;padding:5px;font-size:12px;border:1px solid #0f0;';
@@ -53,7 +51,6 @@
         }, 1000);
     };
 
-    // Esperar a que el body exista
     if (document.body) init();
     else document.addEventListener('DOMContentLoaded', init);
 })();
