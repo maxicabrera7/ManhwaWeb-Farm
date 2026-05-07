@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ManhwaWeb - PC Ghost Farm
 // @namespace    Violentmonkey Scripts
-// @version      2.8
+// @version      2.9
 // @description  Spoofing de visibilidad para farmeo en segundo plano.
 // @author       maxicabrera7
 // @match        *://*.manhwaweb.com/*
@@ -26,7 +26,7 @@
 
     // Variables de control de flujo
     let elapsed = 0;
-    const getTargetTime = () => 55 + Math.floor(Math.random() * 15); // Rango: 55-70s
+    const getTargetTime = () => 61 + Math.floor(Math.random() * 15); // Rango: 61-70s
     let currentTarget = getTargetTime();
 
     // UI estático
