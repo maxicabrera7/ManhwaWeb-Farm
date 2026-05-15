@@ -6,8 +6,10 @@ desktop.ini
 # --- IDE / EDITORS ---
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
 *.swp
 
 # --- USER DATA / SENSITIVE ---
@@ -18,6 +20,8 @@ desktop.ini
 *-test.user.js
 /temp/
 /dist/
+node_modules/
+dist/
 
 # --- LOGS ---
 *.log
